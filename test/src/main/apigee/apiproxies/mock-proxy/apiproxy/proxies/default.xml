@@ -1,0 +1,16 @@
+<ProxyEndpoint name="default">
+ <PostFlow>
+       <Description>Flow After Target</Description>
+       <Response>
+        <Step>
+            <Name>J2X-TransformResponse</Name>
+         </Step>
+       </Response>
+  </PostFlow>
+  <HTTPProxyConnection>
+    <BasePath>/hello-mock</BasePath>
+  </HTTPProxyConnection>
+  <RouteRule name="backend">
+    <TargetEndpoint>backend</TargetEndpoint>
+  </RouteRule>
+</ProxyEndpoint>

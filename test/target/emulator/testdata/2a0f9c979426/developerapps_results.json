@@ -1,0 +1,34 @@
+[
+  {
+    "name": "myapp",
+    "appId": "0ccb6e8b-8540-4047-a6a5-2a283762b713",
+    "callbackUrl": "",
+    "status": "approved",
+    "attributes": [
+      {
+        "name": "sample_attribute_0",
+        "value": "sample_attribute_value_0"
+      }
+    ],
+    "credentials": [
+      {
+        "consumerKey": "LbxddH6F8wjyyKxAl8iRTkfhK5gPuwTs",
+        "consumerSecret": "cVNFM8GF9o0n1Eb7",
+        "apiProducts": [
+          {
+            "apiproduct": "myproduct",
+            "status": "approved"
+          }
+        ],
+        "status": "approved",
+        "attributes": [],
+        "scopes": [],
+        "issuedAt": 1704307287003,
+        "expiresAt": -1
+      }
+    ],
+    "apiProducts": [],
+    "scopes": [],
+    "appType": "Developer"
+  }
+]
